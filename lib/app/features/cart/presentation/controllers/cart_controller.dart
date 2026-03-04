@@ -126,7 +126,7 @@ class _RemovedItemCard extends StatelessWidget {
     return Card(
       child: ListTile(
         title: Text(item.name),
-        subtitle: Text('Removed from cart'),
+        subtitle: const Text('Removed from cart'),
       ),
     );
   }
